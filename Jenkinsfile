@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/devakiravi/devops.git'
+                git 'https://github.com/devakiravi/studentapp.git'
             }
         }
         stage('Build') {
