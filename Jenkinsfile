@@ -1,8 +1,6 @@
 pipeline {
   agent any
-  tools {
-    maven "3.9.9"
-  }
+
   environment {
     CONTAINER_NAME = "studentapplication"
   }
