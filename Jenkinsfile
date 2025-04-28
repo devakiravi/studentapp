@@ -7,6 +7,11 @@ pipeline {
     CONTAINER_NAME = "studentapplication"
   }
   stages {
+    stage('git checkout the code') {
+      steps {
+         checkout scm
+            }
+    }
     stage('Compile and Clean') {
       steps {
         // Run Maven on a Unix agent.
