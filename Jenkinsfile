@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = "studentapp"
-        CONTAINER_NAME = "studentcontainer"
+        CONTAINER_NAME = "studentcontainer1"
     }
 
     stages {
